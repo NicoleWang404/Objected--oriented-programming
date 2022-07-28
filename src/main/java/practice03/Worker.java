@@ -1,4 +1,22 @@
 package practice03;
 
-public class Worker {
+public class Worker extends Person{
+
+    public Worker(String personam, int personage) {
+        super(personam, personage);
+    }
+
+    public String getName() {
+
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+
+    public String introduce() {
+        return "I am a Worker. I have a job.";
+    }
 }
